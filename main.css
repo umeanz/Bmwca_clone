@@ -1,0 +1,87 @@
+body{
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* COMMON */
+.navi-root{
+    min-width: 100%;
+    min-height: auto; 
+    background-color: royalblue;
+
+}
+
+.navi-root .container{
+    height: auto;
+    width: 75%;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.navi-root .container .inner{
+    height: auto;
+    max-width: 1216px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    margin: 0 auto ;
+
+}
+.navi-root .container .inner .menu ul.items{
+
+}
+
+.navi-root .container .inner .menu ul.items{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navi-root .container .inner .menu ul.items li{
+    display: block;
+
+}
+.navi-root .container .inner .menu ul.items li a{
+   padding: 56px 55px;
+   font-weight: bold;
+}
+.navi-root .container .inner .nav-icons{
+
+}
+.navi-root .container .inner .nav-icons ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navi-root .container .inner .nav-icons ul li{
+    display: block;
+    padding: 56px 30px;
+}
+
+.navi-root .container .logo {
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+}
