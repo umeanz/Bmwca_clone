@@ -14,6 +14,9 @@ a{
     text-decoration: none;
 }
 
+.btn .main{
+
+}
 
 /* COMMON */
 .navi-root{
@@ -79,9 +82,21 @@ a{
     padding: 56px 30px;
 }
 
-.navi-root .container .logo {
-    position: absolute;
-    top:0;
-    right: 0;
-    bottom: 0;
+/* Main Image section */
+
+#mani-image{
+
+}
+
+#mani-image .vewsection1{
+    height: 1300;
+    width: 1216px;
+    background-image: url(./images/cq5dam.resized.img.1680.large.time1629385431265.jpg);
+    background-size: cover;
+}
+#mani-image{
+
+}
+#mani-image{
+
 }
